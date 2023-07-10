@@ -116,9 +116,6 @@ module.exports = {
                 },
                 badge: "#F1F5F9",
                 badgeText: "#475569"
-            },
-            backgroundImage: {
-                "hero-pattern": "url('/BannerHeroBG.png')"
             }
         }
     },
