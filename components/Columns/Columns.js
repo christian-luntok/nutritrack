@@ -5,7 +5,7 @@ import { v4 as uuid } from "uuid";
 const ColumnData = [
     {
         id: uuid(),
-        title: "Emijy J.",
+        title: "Emily J.",
         icon: "carbon:user-avatar-filled-alt",
         content:
             "NutriPlan has revolutionized my meal planning and nutrition journey. With its intuitive Notion template, I can effortlessly plan my meals, track my nutrition, and stay on top of my health goals. It's truly a game-changer!"
