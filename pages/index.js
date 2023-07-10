@@ -48,7 +48,7 @@ export default function Home() {
                                 <p>
                                     Hey there! Welcome to NutriTrack, the
                                     ultimate nutrition meal planner powered by
-                                    Notion. We've got some awesome features
+                                    Notion. We&apos;ve got some awesome features
                                     lined up to make your nutrition journey a
                                     piece of cake (pun intended). Check them
                                     out:
@@ -86,8 +86,8 @@ export default function Home() {
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 p-12">
                                         <CardImage
-                                            src="/feature2.png"
-                                            alt="Articoole Banner"
+                                            src="/features4.png"
+                                            alt="Customizable Layouts image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
                                             Customizable Layouts
@@ -107,8 +107,8 @@ export default function Home() {
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 p-12">
                                         <CardImage
-                                            src="/feature1.png"
-                                            alt="Christian Luntok Personal Website Banner"
+                                            src="/features3.png"
+                                            alt="Progress Tracking image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
                                             Progress Tracking
@@ -161,8 +161,8 @@ export default function Home() {
                             >
                                 Got some burning questions about NutriTrack?{" "}
                                 <br></br>
-                                <br></br>No worries! We've got the answers you
-                                need:
+                                <br></br>No worries! We&apos;ve got the answers
+                                you need:
                             </PageTitle>
                             <Accordion />
                         </SectionContainer>
