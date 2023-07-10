@@ -22,8 +22,6 @@ NutriTrack is a customizable NextJS and TailwindCSS landing page template that o
 -   Sitemap support
 -   Made with NextJS and TailwindCSS
 
----
-
 ## Deploy your own
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example).
@@ -35,8 +33,6 @@ npm run build
 ```
 
 You also want to make sure the publish directory is out.
-
----
 
 ## Lighthouse Score
 
@@ -72,13 +68,9 @@ env: {
 }
 ```
 
----
-
 ## Update Colors
 
 You can update the colors in tailwind.config.js file.
-
----
 
 ## Update Favicon
 
@@ -86,13 +78,9 @@ Update the manifest.json file and the icons under the public/images/icons folder
 
 You can use free tools online such as https://realfavicongenerator.net/ to quickly generate all the different icon sizes and favicon.ico file.
 
----
-
 ## License
 
 Licensed under the MIT License, Copyright © 2023
-
----
 
 ## Feedback and Suggestions
 
