@@ -1,8 +1,6 @@
 import { SectionContainer } from "@components/Section";
 import Link from "next/link";
 import Image from "next/image";
-import { PageTitle } from "@components/Title";
-import { Button, ButtonGroup } from "@components/Button";
 
 const DATA = [
     {

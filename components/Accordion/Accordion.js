@@ -10,14 +10,14 @@ const accordionData = [
         title: "What is Notion?",
         isOpen: true,
         content:
-            "Notion is a free all-in-one productivity tool that allows you to create, organize, and collaborate on various types of content. It's a versatile platform that can be used for tasks such as note-taking, project management, and even meal planning, as showcased in this template."
+            "Notion is an all-in-one productivity tool that allows you to create notes, databases, and collaborative workspaces, making it easy to organize and manage your tasks, projects, and ideas in one place."
     },
     {
         id: uuid(),
         title: "Who is this template for?",
         isOpen: false,
         content:
-            "This website template is designed for anyone who wants to enhance their online presence and create a professional website. Whether you're a freelancer, small business owner, or creative professional, this template offers an easy-to-use solution for showcasing your work, services, or portfolio."
+            "This template is specifically designed for Notion creators who want to create a personalized landing page for their Notion workspace, showcasing their projects, services, or content in a visually appealing manner."
     },
     {
         id: uuid(),
@@ -30,14 +30,14 @@ const accordionData = [
         title: "What will I get when I buy this template?",
         isOpen: false,
         content:
-            "When you purchase this website template, you will receive the necessary files and assets to set up your own professional website. This includes pre-designed layouts, sections, and features tailored to your specific needs. You'll have a solid foundation to showcase your content, highlight your services, and engage with your audience effectively."
+            "When you purchase this template, you will receive a customizable NextJS landing page template built with TailwindCSS, allowing you to create a personalized and visually stunning landing page for your Notion workspace. The template comes with the necessary setup and documentation to help you get started quickly."
     },
     {
         id: uuid(),
         title: "Where can I ask more questions about this template?",
         isOpen: false,
         content:
-            "If you have any further questions or need assistance regarding this template, please feel free to reach out to me on my website - Christian Luntok (https://cjluntok.com/)"
+            "If you have any further questions or need assistance regarding this template, please feel free to reach out to me on my website, or click the Contact within the navigation links."
     }
 ];
 
