@@ -7,7 +7,12 @@ const navigation = [
     { name: "Features", to: "#features", href: "/#features" },
     { name: "Testimonials", to: "#testimonials", href: "/#testimonials" },
     { name: "FAQ?", to: "#faq", href: "/#faq" },
-    { name: "Contact", href: "https://cjluntok.com/", isArrow: true }
+    {
+        name: "Contact",
+        href: "https://cjluntok.com/",
+        isArrow: true,
+        target: "_blank"
+    }
 ];
 
 export const Nav = () => {
@@ -54,6 +59,7 @@ export const Nav = () => {
                     ${router.pathname === item.href ? "active" : ""}
                   `}
                                     onClick={closeNav}
+                                    target={item.target ? item.target : "_self"}
                                 >
                                     {item.name}
                                     {item.isArrow && (
