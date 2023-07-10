@@ -23,7 +23,7 @@ const accordionData = [
         id: uuid(),
         title: "Do I need to pay for this?",
         isOpen: false,
-        content: "No, this is free"
+        content: "No, this is free."
     },
     {
         id: uuid(),
