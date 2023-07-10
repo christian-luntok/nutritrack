@@ -1,0 +1,16 @@
+@layer components {
+    .page-banner {
+        &--title {
+        }
+        &--container {
+        }
+        &--inner-container {
+        }
+        &---image {
+        }
+        &--background {
+            @apply absolute left-0 top-0 right-0 bottom-0 -z-[1] h-[50vh] md:h-[60vh] lg:h-screen min-h-[720px] bg-top bg-cover bg-no-repeat bg-hero-pattern;
+            // @apply absolute left-0 top-0 right-0 bottom-0 -z-[1] h-screen bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-red-200 via-indigo-700 to-green-400;
+        }
+    }
+}

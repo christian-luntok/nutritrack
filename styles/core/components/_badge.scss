@@ -1,0 +1,28 @@
+/**
+
+=========================================================
+** Custom Badge styling
+=========================================================
+
+**/
+
+@layer components {
+    .badge-group {
+        @apply inline-flex text-sm;
+    }
+    .badge-group--container {
+        @apply mb-8 w-auto items-center rounded-full border border-neutral-300 bg-white px-1 py-[2px] font-medium text-badgeText inline-flex;
+    }
+    .badge-group--link {
+        @apply transition-colors duration-300;
+    }
+    .badge-group--context {
+        @apply rounded-full bg-[#efefef] px-2 py-[2px];
+    }
+    .badge-group--message {
+        @apply px-2;
+    }
+    .badge-group--icon {
+        @apply py-2 pr-2;
+    }
+}

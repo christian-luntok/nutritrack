@@ -1,0 +1,34 @@
+/**
+
+=========================================================
+** Custom Nav styling 
+=========================================================
+
+**/
+
+@layer components {
+    .header-nav {
+        @apply text-black/60;
+    }
+    .header-nav--container {
+    }
+    .mobile-menu {
+        @apply lg:ml-3 inline-flex items-center p-2 text-white lg:hidden md:mr-auto;
+    }
+    .header-nav {
+        .header-nav--menu-container {
+            @apply absolute left-0 w-full lg:relative lg:block lg:w-auto;
+        }
+    }
+    .header-nav--menu {
+        @apply my-3 flex flex-col gap-6 border border-gray-100 bg-gray-50 p-4 font-medium lg:my-0 lg:mt-0 lg:flex-row lg:border-0 lg:bg-transparent lg:p-0 lg:font-medium;
+    }
+    .header-nav--menu-item {
+    }
+    .menu-item--link {
+        @apply block rounded py-2 pl-3 pr-4 transition-colors duration-300 md:bg-transparent md:p-0 md:p-0 lg:text-black md:hover:underline;
+        &.active {
+            @apply bg-primary-700 text-white text-black lg:bg-white;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "nutritrack",
+    "version": "0.1.0",
+    "description": "Nutritrack - A website developed by Avenue Labs, using the Avenue Starter.",
+    "main": "index.js",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/christian-luntok/nutritrack.git"
+    },
+    "keywords": [
+        "next",
+        "nextjs",
+        "react",
+        "reactjs",
+        "npx",
+        "tailwindcss",
+        "tailwind"
+    ],
+    "author": "Christian Luntok",
+    "homepage": "https://cjluntok.com/",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.2.1",
+        "@fortawesome/free-solid-svg-icons": "^6.2.1",
+        "@fortawesome/react-fontawesome": "^0.2.0",
+        "@headlessui/react": "^1.7.14",
+        "@iconify/react": "^4.0.1",
+        "@next/font": "^13.1.2",
+        "@vercel/og": "^0.0.21",
+        "eslint-config-next": "13.1.2",
+        "framer-motion": "^10.11.2",
+        "micro-cors": "^0.1.1",
+        "next": "^13.1.2",
+        "next-secure-headers": "^2.2.0",
+        "next-seo": "^5.15.0",
+        "next-sitemap": "^3.1.44",
+        "numeral": "^2.0.6",
+        "openai": "^3.2.1",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "resize-observer-polyfill": "^1.5.1",
+        "uuid": "^8.3.2",
+        "react-hot-toast": "^2.4.0"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.13",
+        "clsx": "^1.2.1",
+        "eslint": "^8.36.0",
+        "eslint-config-prettier": "^8.8.0",
+        "postcss": "^8.4.21",
+        "prettier": "2.8.6",
+        "sass": "^1.57.1",
+        "stylelint": "^14.16.1",
+        "tailwindcss": "^3.2.4",
+        "vitest": "^0.27.1"
+    }
+}

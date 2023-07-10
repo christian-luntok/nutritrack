@@ -1,0 +1,31 @@
+/**
+
+=========================================================
+** Custom Header styling
+=========================================================
+
+**/
+
+@layer components {
+    .header {
+    }
+
+    .header--container {
+        @apply relative flex items-center justify-between py-3 lg:justify-start;
+        &:after {
+            content: "";
+            margin-left: var(--page-padding-left);
+            margin-right: var(--page-padding-right);
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.08);
+        }
+    }
+
+    .header-logo--container {
+        @apply mr-2 lg:mr-8 flex items-center;
+    }
+}
