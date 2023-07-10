@@ -4,9 +4,9 @@ import { Icon } from "@iconify/react";
 import { useRouter } from "next/router";
 
 const navigation = [
-    { name: "Features", href: "/#features" },
-    { name: "Testimonials", href: "/#testimonials" },
-    { name: "FAQ?", href: "/#faq" },
+    { name: "Features", to: "#features", href: "/#features" },
+    { name: "Testimonials", to: "#testimonials", href: "/#testimonials" },
+    { name: "FAQ?", to: "#faq", href: "/#faq" },
     { name: "Contact", href: "https://cjluntok.com/", isArrow: true }
 ];
 
@@ -46,7 +46,7 @@ export const Nav = () => {
                                 key={item.name}
                                 className="header-nav--menu-item"
                             >
-                                <Link
+                                <a
                                     key={item.name}
                                     to={item.to}
                                     href={item.href}
@@ -64,7 +64,7 @@ export const Nav = () => {
                                             />
                                         </span>
                                     )}
-                                </Link>
+                                </a>
                             </li>
                         ))}
                     </ul>
