@@ -4,6 +4,7 @@ import { Content } from "@components/Content";
 import { MotionBTTContainer, MotionInfiniteImage } from "@components/Motion";
 import { SectionContainer } from "@components/Section";
 import { PageTitle } from "@components/Title";
+import { Icon } from "@iconify/react";
 import Image from "next/image";
 
 export const HomeBanner = () => {
@@ -34,13 +35,15 @@ export const HomeBanner = () => {
                     </Content>
                     <div className="mt-6 mb-16 text-center">
                         <ButtonGroup alignment="center">
-                            <Button href="/">Features</Button>
-                            <Button
-                                variant="secondary"
-                                icon="material-symbols:arrow-forward-rounded"
+                            <Button href="#features">Features</Button>
+                            <a
+                                role="button"
+                                href="https://avenuelabs.lemonsqueezy.com/checkout/buy/70fe6994-64d0-4238-9151-010aabf97261?embed=1"
+                                className="btn btn--secondary lemonsqueezy-button"
                             >
                                 Get Template
-                            </Button>
+                                <Icon icon="material-symbols:arrow-forward-rounded" />
+                            </a>
                         </ButtonGroup>
                     </div>
                 </MotionBTTContainer>

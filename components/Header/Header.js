@@ -3,6 +3,7 @@ import Image from "next/image";
 import { SectionContainer } from "@components/Section";
 import { Nav } from "@components/Nav";
 import { ButtonGroup, Button } from "@components/Button";
+import { Icon } from "@iconify/react";
 
 export const Header = () => {
     return (
@@ -28,13 +29,14 @@ export const Header = () => {
                 <SectionContainer className="flex items-center ml-auto">
                     <Nav />
                     <ButtonGroup className="hidden md:block">
-                        <Button
-                            variant="secondary"
-                            className="ml-4"
-                            href="/sign-up"
+                        <a
+                            role="button"
+                            href="https://avenuelabs.lemonsqueezy.com/checkout/buy/70fe6994-64d0-4238-9151-010aabf97261?embed=1"
+                            className="btn btn--secondary lemonsqueezy-button ml-4"
                         >
-                            Get template!
-                        </Button>
+                            Get Template
+                            <Icon icon="material-symbols:arrow-forward-rounded" />
+                        </a>
                     </ButtonGroup>
                 </SectionContainer>
             </SectionContainer>

@@ -74,6 +74,11 @@ const SEO = ({ title, description, keywords }) => {
             <meta name="theme-color" content="#ffffff" />
             <link rel="alternate" type="application/rss+xml" href="/rss.xml" />
             <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+
+            <script
+                src="https://assets.lemonsqueezy.com/lemon.js"
+                defer
+            ></script>
         </Head>
     );
 };
