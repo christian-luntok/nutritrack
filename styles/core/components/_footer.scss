@@ -2,7 +2,7 @@
     #footer {
         .footer {
             &--background {
-                @apply absolute left-0 top-0 right-0 bottom-0 z-[5] h-full bg-center bg-cover bg-no-repeat bg-hero-pattern opacity-50;
+                @apply absolute left-0 top-0 right-0 bottom-0 z-[5] h-full bg-center bg-cover bg-no-repeat opacity-50;
             }
         }
     }
