@@ -41,6 +41,7 @@ export const HomeBanner = () => {
                                 href="https://github.com/chrstnl-gh/nutritrack"
                                 className="btn btn--secondary"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 Get Template
                                 <Icon icon="material-symbols:arrow-forward-rounded" />
