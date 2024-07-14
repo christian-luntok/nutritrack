@@ -1,0 +1,37 @@
+/*
+
+=========================================================
+* Avenue CSS Kit v0.1
+=========================================================
+
+* Demo Page: 'https://nutritrack.chrstnl.com/'
+* Copyright 2023 @chrstnl 
+* Coded by @chrstnl
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
+
+// Core CSS Reset/MISCS
+@import "core/misc";
+
+// Core Declarations
+@import "core/variables";
+
+// Core Layouts and Style Definitions
+@import "core/general";
+@import "core/typography";
+@import "core/utilities";
+
+// Core Components
+@import "core/components/button";
+@import "core/components/badge";
+@import "core/components/nav";
+@import "core/components/header";
+@import "core/components/card";
+@import "core/components/page-banner";
+@import "core/components/footer";
+
+// Core Plugins
+// @import "plugins/plugin-tailwind";
