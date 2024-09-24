@@ -49,8 +49,7 @@ export default function Home() {
                                     ultimate nutrition meal planner powered by
                                     Notion. We&apos;ve got some awesome features
                                     lined up to make your nutrition journey a
-                                    piece of cake (pun intended). Check them
-                                    out:
+                                    piece of cake (pun intended).
                                 </p>
                             </Content>
                             <ContentImage />
@@ -158,7 +157,7 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Got some burning questions about NutriTrack?{" "}
+                                Got some burning questions about the template?{" "}
                                 <br></br>
                                 <br></br>No worries! We&apos;ve got the answers
                                 you need:
