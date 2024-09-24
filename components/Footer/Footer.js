@@ -71,6 +71,9 @@ export const Footer = () => {
                                         priority
                                     />
                                 </Link>
+                                <div className="flex italic flex-wrap text-sm">
+                                    All content on this template are dummy data.
+                                </div>
                                 {/* Get Template button; remove if not used */}
                                 <ButtonGroup alignment="left">
                                     <a
